@@ -1,0 +1,26 @@
+session_name: rg-web
+windows:
+- layout: 5067,210x55,0,0{149x55,0,0,1,60x55,150,0,84}
+  options: {}
+  panes:
+  - focus: 'true'
+    shell_command: nvim
+  - npm
+  start_directory: /home/viktorhg/hm/web
+  window_name: web-server
+- layout: a69d,210x55,0,0{151x55,0,0,10,58x55,152,0,32}
+  options: {}
+  panes:
+  - nvim
+  - focus: 'true'
+    shell_command: target/debug/route_guidance_server
+  start_directory: /home/viktorhg/hm/route-guidance
+  window_name: rg
+- focus: 'true'
+  layout: 2487,210x55,0,0{141x55,0,0,43,68x55,142,0,53}
+  options: {}
+  panes:
+  - pane
+  - fish
+  start_directory: /home/viktorhg/hm/curl_rg
+  window_name: rg-curl

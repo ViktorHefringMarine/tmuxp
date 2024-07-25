@@ -1,0 +1,16 @@
+session_name: web
+windows:
+- layout: ade3,270x71,0,0,142
+  options: {}
+  panes:
+  - focus: 'true'
+    shell_command: fish
+  start_directory: /home/viktorhg/hm/web
+  window_name: server
+- focus: 'true'
+  layout: ade5,270x71,0,0,144
+  options: {}
+  panes:
+  - pane
+  start_directory: /home/viktorhg/hm/web
+  window_name: edit

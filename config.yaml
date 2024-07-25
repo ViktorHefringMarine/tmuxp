@@ -1,0 +1,56 @@
+session_name: config
+
+windows:
+
+
+- window_name: tmux 
+  focus: 'true'
+  layout: 60a6,210x55,0,0,55
+  options: {}
+  panes:
+  - focus: 'true'
+    shell_command: clear;neofetch;eo
+  start_directory: /home/viktorhg/.config/tmux
+  
+
+- window_name: tmuxp
+  layout: 60a5,210x55,0,0,54
+  options: {}
+  panes:
+  - focus: 'true'
+    shell_command: clear;neofetch;eo
+  start_directory: /home/viktorhg/.config/tmuxp
+
+- window_name: fish
+  layout: 60a2,210x55,0,0,51
+  options: {}
+  panes:
+  - focus: 'true'
+    shell_command: clear;neofetch;eo
+  start_directory: /home/viktorhg/.config/fish
+
+- window_name: alacritty
+  layout: e0a9,210x55,0,0,49
+  options: {}
+  panes:
+  - focus: 'true'
+    shell_command: clear;neofetch;eo
+  start_directory: /home/viktorhg/.config/alacritty
+
+- window_name: awesome
+  layout: 60a1,210x55,0,0,50
+  options: {}
+  panes:
+  - focus: 'true'
+    shell_command: clear;neofetch;eo
+  start_directory: /home/viktorhg/.config/awesome
+  
+- window_name: variety
+  layout: 60a8,210x55,0,0,57
+  options: {}
+  panes:
+  - focus: 'true'
+    shell_command: clear;neofetch;eo
+  start_directory: /home/viktorhg/.config/variety
+  
+

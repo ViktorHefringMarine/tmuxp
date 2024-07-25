@@ -1,0 +1,41 @@
+session_name: boatify
+windows:
+
+- window_name: docker-compose
+  layout: 3381,346x95,0,0,138
+  options: {}
+  panes:
+  - focus: 'true'
+    shell_command: GCLOUD_ACCESS_TOKEN=$(gcloud auth print-access-token) docker compose up --build
+  start_directory: /home/viktorhg/hm/boatify
+  
+
+- window_name: api
+  focus: 'true'
+  layout: fc75,346x95,0,0{219x95,0,0,132,126x95,220,0,134}
+  options: {}
+  panes:
+  - nvim
+  - pane
+  start_directory: /home/viktorhg/hm/boatify/api
+  
+
+- window_name: redis-cli
+  layout: b977,346x95,0,0[346x47,0,0,135,346x47,0,48,137]
+  options: {}
+  panes:
+  - redis-server
+  - focus: 'true'
+    shell_command: docker-exec-into-container redis:7.2.1
+  start_directory: /home/viktorhg/hm/boatify
+  
+
+- window_name: mqttui
+  layout: 3381,346x95,0,0,138
+  options: {}
+  panes:
+  - focus: 'true'
+    shell_command: mqttui
+  start_directory: /home/viktorhg/hm/boatify
+  
+

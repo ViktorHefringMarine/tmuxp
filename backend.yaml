@@ -1,0 +1,70 @@
+session_name: backend
+windows:
+- layout: d8c8,346x91,0,0{173x91,0,0,2,172x91,174,0,3}
+  options: {}
+  panes:
+  - nvim
+  - focus: 'true'
+    shell_command: fish
+  start_directory: /home/viktorhg/hm/backend/functions/on_device_request_get_config
+  window_name: on_create_company_update_bigquery
+- layout: a44b,346x91,0,0{209x91,0,0,4,136x91,210,0,5}
+  options: {}
+  panes:
+  - focus: 'true'
+    shell_command: fish
+  - fish
+  start_directory: /home/viktorhg/hm/backend/functions/httpBqUploadBigqueryPipe
+  window_name: httpBqUploadBigqueryPipe
+- layout: cae3,381x104,0,0{250x104,0,0,6,130x104,251,0,7}
+  options: {}
+  panes:
+  - focus: 'true'
+    shell_command: fish
+  - fish
+  start_directory: /home/viktorhg/hm/backend/functions/http_bq_company_reupload
+  window_name: http_bq_company_reupload
+- layout: 0bf1,381x104,0,0{213x104,0,0,8,167x104,214,0[167x52,214,0,9,167x51,214,53,10]}
+  options: {}
+  panes:
+  - focus: 'true'
+    shell_command:
+    - cd /home/viktorhg/hm/backend/functions/http_delete_migration_tables
+    - fish
+  - shell_command:
+    - cd /home/viktorhg/hm/backend/functions/http_delete_migration_tables
+    - python3
+  - shell_command:
+    - cd /home/viktorhg/.config/fish
+    - nvim
+  window_name: http_delete_migration_tables
+- layout: 4a18,381x104,0,0,11
+  options: {}
+  panes:
+  - focus: 'true'
+    shell_command: fish
+  start_directory: /home/viktorhg/hm/backend/functions/http_use_migration_table
+  window_name: http_use_migration_table
+- layout: 5e91,346x91,0,0,12
+  options: {}
+  panes:
+  - focus: 'true'
+    shell_command: fish
+  start_directory: /home/viktorhg/hm/backend/functions/on_device_request_get_config
+  window_name: on_device_request_get_config
+- layout: d423,346x91,0,0{191x91,0,0,13,154x91,192,0,14}
+  options: {}
+  panes:
+  - focus: 'true'
+    shell_command: fish
+  - fish
+  start_directory: /home/viktorhg/hm/backend/functions/pubsub_alert-upload_handle-alert
+  window_name: pubsub_alert-upload_handle-alert
+- focus: 'true'
+  layout: 4a1c,381x104,0,0,15
+  options: {}
+  panes:
+  - focus: 'true'
+    shell_command: fish
+  start_directory: /home/viktorhg/hm/backend/functions/on_pubsub_message_update_vessel_status
+  window_name: fish

@@ -1,0 +1,30 @@
+session_name: embedded
+windows:
+- window_name: data_manager
+  layout: 61f4,270x71,0,0{163x71,0,0,29,106x71,164,0,36}
+  options: {}
+  panes:
+  - focus: 'true'
+    shell_command: fish
+  - shell_command: cm build
+  start_directory: /home/viktorhg/hm/embedded/data_manager
+  
+- window_name: data_upload
+  layout: 84a4,270x71,0,0{173x71,0,0,34,96x71,174,0,37}
+  options: {}
+  panes:
+  - nvim
+  - shell_command: cm build
+  start_directory: /home/viktorhg/hm/embedded/data_upload
+  
+
+- window_name: frontpub
+  focus: 'true'
+  layout: 84a4,270x71,0,0{173x71,0,0,34,96x71,174,0,37}
+  options: {}
+  panes:
+  panes:
+  - nvim
+  - shell_command: cm build
+  start_directory: /home/viktorhg/hm/embedded/frontpub
+  

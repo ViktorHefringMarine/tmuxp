@@ -1,0 +1,18 @@
+session_name: docs
+windows:
+- focus: 'true'
+  layout: b0e8,104x55,0,0,101
+  options: {}
+  panes:
+    - shell_command:
+      - clear; yarn start --port 8888
+  start_directory: /home/viktorhg/hm/hefring-docs
+  window_name: server
+
+- layout: 617c,104x55,0,0,99
+  options: {}
+  panes:
+  - focus: 'true'
+    shell_command: nvim
+  start_directory: /home/viktorhg/hm/hefring-docs
+  window_name: editor

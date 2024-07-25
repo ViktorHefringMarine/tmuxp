@@ -1,0 +1,20 @@
+session_name: 'ra-multiplex'
+windows:
+
+- window_name: editor
+  start_directory: /home/viktorhg/git-repos/ra-multiplex
+  layout: 5b62,270x71,0,0,70
+  options: {}
+  panes:
+  - focus: 'true'
+    shell_command: clear;neofetch;ead
+
+- window_name: ra-multiplex
+  focus: 'true'
+  start_directory: /home/viktorhg/git-repos/ra-multiplex
+  layout: 5b65,270x71,0,0,73
+  options: {}
+  panes:
+  - focus: 'true'
+    shell_command: rust-lsp-server
+  

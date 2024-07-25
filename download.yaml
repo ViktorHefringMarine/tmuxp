@@ -1,0 +1,12 @@
+session_name: download
+
+windows:
+- focus: 'true'
+  layout: 87bf,270x74,0,0{135x74,0,0,73,134x74,136,0,75}
+  options: {}
+  panes:
+  - focus: 'true'
+    shell_command: clear;neofetch;ead
+  - shell_command: cd /home/viktorhg/research/; clear; neofetch; eo
+  start_directory: /home/viktorhg/Downloads
+  window_name: main

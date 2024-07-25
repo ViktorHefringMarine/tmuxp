@@ -1,0 +1,25 @@
+session_name: backend-databases
+windows:
+- focus: 'true'
+  layout: d427,346x91,0,0{172x91,0,0,37,173x91,173,0,36}
+  options: {}
+  panes:
+  - pane
+  - fish
+  start_directory: /home/viktorhg/hm/backend/databases/realtime-db
+  window_name: realtime-db
+- layout: 583a,346x91,0,0{173x91,0,0,40,172x91,174,0,41}
+  options: {}
+  panes:
+  - focus: 'true'
+    shell_command: fish
+  - fish
+  start_directory: /home/viktorhg/hm/backend/databases/firestore
+  window_name: firestore
+- layout: 5e92,346x91,0,0,32
+  options: {}
+  panes:
+  - focus: 'true'
+    shell_command: fish
+  start_directory: /home/viktorhg/hm/backend/functions/on_request_register_user
+  window_name: on_request_register_user

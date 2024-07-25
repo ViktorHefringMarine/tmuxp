@@ -1,0 +1,24 @@
+session_name: fog-cb
+windows:
+- window_name: embedded
+  focus: 'true'
+  layout: 9fdf,270x71,0,0{77x71,0,0,1,192x71,78,0[192x54,78,0{103x54,78,0,4,88x54,182,0,7},192x16,78,55,6]}
+  options: {}
+  panes:
+    - shell_command: nvim cloudbuild-merge.yaml
+    - shell_command: nvim main.py
+    - shell_command: nvim docker-compose.yml
+    - focus: 'true'
+      shell_command: ls
+  start_directory: /home/viktorhg/hm/embedded/fog
+- layout: 0410,270x71,0,0{163x71,0,0,2,106x71,164,0,3}
+  options: {}
+  panes:
+  - shell_command:
+    - cd /home/viktorhg/hm/backend/functions/on_trip_start_create_nn
+    - fish
+  - focus: 'true'
+    shell_command:
+    - cd /home/viktorhg/hm/backend/functions/on_trip_start_create_nn/src
+    - fish
+  window_name: backend

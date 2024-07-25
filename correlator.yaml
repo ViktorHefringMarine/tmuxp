@@ -1,0 +1,27 @@
+session_name: 'correlator'
+windows:
+- focus: 'true'
+  layout: 4a1d,381x104,0,0,16
+  options: {}
+  panes:
+  - focus: 'true'
+    shell_command: ea
+  start_directory: /home/viktorhg/hm/correlator
+  window_name: root
+
+- layout: 4a1e,381x104,0,0,17
+  options: {}
+  panes:
+  - focus: 'true'
+    shell_command: ea
+  start_directory: /home/viktorhg/hm/correlator/web
+  window_name: web
+
+- layout: 4a1f,381x104,0,0,18
+  options: {}
+  panes:
+  - focus: 'true'
+    shell_command: ea
+  start_directory: /home/viktorhg/hm/correlator/api
+  window_name: api
+

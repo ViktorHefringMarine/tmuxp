@@ -1,0 +1,15 @@
+session_name: spt
+windows:
+- options: {}
+  panes:
+  - shell_command:
+    - clear;neofetch
+    - spotify-launcher
+  start_directory: /home/viktorhg
+  window_name: launcher
+- focus: 'true'
+  options: {}
+  panes:
+  - shell_command: spt
+  start_directory: /home/viktorhg
+  window_name: python

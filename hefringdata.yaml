@@ -1,0 +1,9 @@
+session_name: hefringdata
+windows:
+- focus: 'true'
+  layout: 4a1a,381x104,0,0,13
+  options: {}
+  panes:
+  - pane
+  start_directory: /home/viktorhg/hm/python-hefring-data
+  window_name: root
